@@ -1,0 +1,94 @@
+[12-Mar-2015 19:48:32 UTC] PHP Parse error:  syntax error, unexpected '<' in /home2/plocketplug/public_html/plocketappci/application/libraries/facebook.php on line 2
+[12-Mar-2015 19:49:08 UTC] PHP Fatal error:  Cannot use Facebook\FacebookRequest as FacebookRequest because the name is already in use in /home2/plocketplug/public_html/plocketappci/application/libraries/facebook.php on line 43
+[12-Mar-2015 19:49:40 UTC] PHP Fatal error:  Cannot redeclare FB::$session in /home2/plocketplug/public_html/plocketappci/application/libraries/facebook.php on line 57
+[12-Mar-2015 19:51:46 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookSDKException' with message 'You must provide or set a default application id.' in /home2/plocketplug/public_html/plocketappci/application/libraries/facebook-php-sdk-v4/src/Facebook/FacebookSession.php:320
+Stack trace:
+#0 /home2/plocketplug/public_html/plocketappci/application/libraries/facebook-php-sdk-v4/src/Facebook/FacebookSignedRequestFromInputHelper.php(63): Facebook\FacebookSession::_getTargetAppId(NULL)
+#1 /home2/plocketplug/public_html/plocketappci/application/libraries/facebook.php(119): Facebook\FacebookSignedRequestFromInputHelper->__construct()
+#2 /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php(346): Facebook->authenticateFB()
+#3 [internal function]: Plocket_Ajax->postFacebook()
+#4 /home2/plocketplug/public_html/plocketappci/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#5 /home2/plocketplug/public_html/plocketappci/index.php(202): require_once('/home2/plocketp...')
+#6 {main}
+  thrown in /home2/plocketplug/public_html/plocketappci/application/libraries/facebook-php-sdk-v4/src/Facebook/FacebookSession.php on line 320
+[12-Mar-2015 20:01:45 UTC] PHP Fatal error:  Call to a member function getSession() on a non-object in /home2/plocketplug/public_html/plocketappci/application/libraries/facebook.php on line 125
+[12-Mar-2015 20:17:16 UTC] PHP Fatal error:  Call to a member function getSessionFromRedirect() on a non-object in /home2/plocketplug/public_html/plocketappci/application/libraries/facebook.php on line 93
+[12-Mar-2015 20:17:43 UTC] PHP Fatal error:  Call to a member function getSessionFromRedirect() on a non-object in /home2/plocketplug/public_html/plocketappci/application/libraries/facebook.php on line 93
+[12-Mar-2015 20:21:15 UTC] PHP Fatal error:  Call to a member function getSessionFromRedirect() on a non-object in /home2/plocketplug/public_html/plocketappci/application/libraries/facebook.php on line 97
+[12-Mar-2015 20:24:24 UTC] PHP Fatal error:  Call to a member function getSessionFromRedirect() on a non-object in /home2/plocketplug/public_html/plocketappci/application/libraries/facebook.php on line 97
+[12-Mar-2015 20:38:09 UTC] PHP Fatal error:  Call to a member function postImage() on a non-object in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 352
+[12-Mar-2015 20:48:49 UTC] PHP Parse error:  syntax error, unexpected '.', expecting ')' in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 351
+[12-Mar-2015 20:59:08 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home2/plocketplug/public_html/plocketappci/application/libraries/facebook.php on line 165
+[12-Mar-2015 20:59:55 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home2/plocketplug/public_html/plocketappci/application/libraries/facebook.php on line 165
+[12-Mar-2015 21:00:27 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home2/plocketplug/public_html/plocketappci/application/libraries/facebook.php on line 165
+[12-Mar-2015 21:11:13 UTC] PHP Parse error:  syntax error, unexpected ';' in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 351
+[12-Mar-2015 21:21:52 UTC] PHP Parse error:  syntax error, unexpected '.' in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 351
+[12-Mar-2015 21:21:52 UTC] PHP Parse error:  syntax error, unexpected '.' in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 351
+[12-Mar-2015 21:22:22 UTC] PHP Parse error:  syntax error, unexpected '.' in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 351
+[12-Mar-2015 21:22:38 UTC] PHP Parse error:  syntax error, unexpected '.' in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 351
+[12-Mar-2015 21:23:23 UTC] PHP Parse error:  syntax error, unexpected '.' in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 351
+[12-Mar-2015 21:24:08 UTC] PHP Parse error:  syntax error, unexpected '.' in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 351
+[12-Mar-2015 22:13:43 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 18432 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[12-Mar-2015 22:13:51 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 18432 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[12-Mar-2015 22:14:12 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 18432 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[12-Mar-2015 22:15:22 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 18432 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[12-Mar-2015 22:17:26 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 18432 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[12-Mar-2015 22:18:47 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 18432 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[12-Mar-2015 23:04:07 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 312
+[12-Mar-2015 23:05:14 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 312
+[13-Mar-2015 00:26:57 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 12960 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[13-Mar-2015 00:27:23 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 12960 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[13-Mar-2015 00:29:28 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 12960 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[13-Mar-2015 00:29:36 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 12960 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[13-Mar-2015 00:29:48 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 12960 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[13-Mar-2015 00:32:49 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 17280 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[13-Mar-2015 00:33:09 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 17280 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[13-Mar-2015 02:47:18 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 4928 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[13-Mar-2015 02:51:45 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 4928 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[13-Mar-2015 02:59:17 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 12960 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[13-Mar-2015 03:13:14 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 12960 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[13-Mar-2015 03:13:25 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 12960 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[13-Mar-2015 04:28:25 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 17280 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[13-Mar-2015 04:28:41 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 17280 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[13-Mar-2015 04:39:58 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 17280 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[13-Mar-2015 04:40:04 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 17280 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[13-Mar-2015 04:40:10 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 17280 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[13-Mar-2015 04:45:52 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 12960 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[13-Mar-2015 04:51:14 UTC] PHP Parse error:  syntax error, unexpected ';' in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket.php on line 12
+[13-Mar-2015 04:51:15 UTC] PHP Parse error:  syntax error, unexpected ';' in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket.php on line 12
+[13-Mar-2015 04:51:16 UTC] PHP Parse error:  syntax error, unexpected ';' in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket.php on line 12
+[13-Mar-2015 05:05:03 UTC] PHP Fatal error:  Call to undefined function strtolewer() in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 76
+[13-Mar-2015 05:05:58 UTC] PHP Fatal error:  Call to undefined function strtolewer() in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 76
+[13-Mar-2015 05:07:11 UTC] PHP Fatal error:  Call to undefined function strtolewer() in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 76
+[13-Mar-2015 05:07:19 UTC] PHP Fatal error:  Call to undefined function strtolewer() in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 76
+[13-Mar-2015 05:07:33 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 17280 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[13-Mar-2015 05:07:39 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 17280 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[13-Mar-2015 05:07:47 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 17280 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[13-Mar-2015 05:09:38 UTC] PHP Fatal error:  Call to undefined function strtolewer() in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 76
+[13-Mar-2015 05:11:16 UTC] PHP Fatal error:  Call to undefined function strtolewer() in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 76
+[13-Mar-2015 05:11:38 UTC] PHP Fatal error:  Call to undefined function strtolewer() in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 76
+[13-Mar-2015 05:12:24 UTC] PHP Fatal error:  Call to undefined function strtolewer() in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 76
+[13-Mar-2015 05:12:44 UTC] PHP Fatal error:  Call to undefined function strtolewer() in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 76
+[13-Mar-2015 05:13:06 UTC] PHP Fatal error:  Call to undefined function strtolewer() in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 76
+[13-Mar-2015 05:14:33 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 17280 bytes) in /home2/plocketplug/public_html/plocketappci/application/libraries/imagemanipulate.php on line 21
+[17-Mar-2015 17:41:59 UTC] PHP Parse error:  syntax error, unexpected '}' in /home2/plocketplug/public_html/plocketappci/application/libraries/facebook.php on line 114
+[17-Mar-2015 17:48:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /home2/plocketplug/public_html/plocketappci/application/libraries/facebook.php on line 114
+[17-Mar-2015 18:12:07 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookServerException' with message 'The request is invalid because the app is configured as a desktop app' in /home2/plocketplug/public_html/plocketappci/application/libraries/facebook-php-sdk-v4/src/Facebook/FacebookRequestException.php:110
+Stack trace:
+#0 /home2/plocketplug/public_html/plocketappci/application/libraries/facebook-php-sdk-v4/src/Facebook/FacebookRequest.php(280): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home2/plocketplug/public_html/plocketappci/application/libraries/facebook-php-sdk-v4/src/Facebook/Entities/AccessToken.php(329): Facebook\FacebookRequest->execute()
+#2 /home2/plocketplug/public_html/plocketappci/application/libraries/facebook-php-sdk-v4/src/Facebook/Entities/AccessToken.php(243): Facebook\Entities\AccessToken::request('/oauth/access_t...', Array, NULL, NULL)
+#3 /home2/plocketplug/public_html/plocketappci/application/libraries/facebook-php-sdk-v4/src/Facebook/Entities/AccessToken.php(188): Faceboo in /home2/plocketplug/public_html/plocketappci/application/libraries/facebook-php-sdk-v4/src/Facebook/FacebookRequestException.php on line 110
+[17-Mar-2015 18:59:13 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookAuthorizationException' with message 'An active access token must be used to query information about the current user.' in /home2/plocketplug/public_html/plocketappci/application/libraries/facebook-php-sdk-v4/src/Facebook/FacebookRequestException.php:134
+Stack trace:
+#0 /home2/plocketplug/public_html/plocketappci/application/libraries/facebook-php-sdk-v4/src/Facebook/FacebookRequest.php(280): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home2/plocketplug/public_html/plocketappci/application/libraries/facebook.php(121): Facebook\FacebookRequest->execute()
+#2 /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php(350): Facebook->authenticateFB()
+#3 [internal function]: Plocket_Ajax->postFacebook()
+#4 /home2/plocketplug/public_html/plocketappci/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#5 /home2/plocketplug/public_html/plocketappci/index.php(202): require_once('/home2/plocke in /home2/plocketplug/public_html/plocketappci/application/libraries/facebook-php-sdk-v4/src/Facebook/FacebookRequestException.php on line 134
+[18-Mar-2015 19:20:18 UTC] PHP Fatal error:  Cannot use object of type CI_Output as array in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 232
+[18-Mar-2015 19:20:49 UTC] PHP Fatal error:  Cannot access protected property CI_Output::$final_output in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 232
+[18-Mar-2015 19:36:44 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 220
+[18-Mar-2015 19:37:38 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home2/plocketplug/public_html/plocketappci/application/controllers/plocket_ajax.php on line 226
+[20-Mar-2015 20:38:00 UTC] PHP Fatal error:  Call to undefined method Facebook\FacebookJavaScriptLoginHelper::getLoginUrl() in /home2/plocketplug/public_html/plocketappci/application/libraries/facebook.php on line 147

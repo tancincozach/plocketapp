@@ -1,0 +1,77 @@
+	header{
+		      border-bottom: 5px solid #007AFF;
+		      overflow: hidden;
+		      padding: 20px 0px;
+		      width: 780px;
+		      margin:0 auto;
+		}
+		header .button_container{
+		      width: 30%;
+		      float: left;
+		}
+		header .caption_container{
+		      width: 70%;
+		      float: left;
+		      color: #fff;
+		      font-size: 24px;
+
+		}
+		/* 3 columns */
+@media screen and (min-width: 600px) and (max-width : 799px){
+
+			header{
+			border-bottom: 5px solid #007AFF;
+			overflow: hidden;
+			padding: 20px 0px;
+			width: 580px;
+			}
+
+}
+
+/* 2 columns */
+@media screen and (min-width : 381px) and (max-width : 599px){
+
+
+		header{
+			border-bottom: 5px solid #007AFF;
+			overflow: hidden;
+			padding: 20px 0px;
+			width: 380px;
+			}
+
+}
+@media screen and (min-width : 340px) and (max-width : 380px){  
+		header{
+				border-bottom: 5px solid #007AFF;
+				margin-left: -5px;
+				overflow: hidden;
+				padding: 20px 0;
+				width: 259px;
+			}
+
+			div.img-holder{
+			    height: auto;
+			    margin-left: -40px;
+			    width: 258px;
+			}
+
+}
+@media screen and (max-width : 339px){
+
+
+
+		header{
+				border-bottom: 5px solid #007aff;
+				margin-left: -4px;
+				overflow: hidden;
+				padding: 20px 0;
+				width: 258px;
+			}
+
+			div.img-holder{
+			    height: auto;
+			    margin-left: -5px;
+			    width: 258px;
+			}
+
+}
